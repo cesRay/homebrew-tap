@@ -1,7 +1,9 @@
 # cesRay Homebrew tap
 
 ```bash
-brew install cesRay/tap/visor
+brew tap cesRay/tap
+brew trust --formula cesray/tap/visor   # Homebrew 7+ only loads trusted third-party formulae
+brew install visor
 ```
 
 | Formula | Description |
